@@ -1,0 +1,68 @@
+{
+  "generation_name": "corrected_generation4",
+  "reference_dir": "data\\reference\\gen0_reference",
+  "current_samples": "data\\generated\\corrected_generation4_eval_samples.jsonl",
+  "current_checkpoint": "checkpoints\\corrected_generation4\\best",
+  "gen0_checkpoint": "checkpoints\\generation0\\best",
+  "heldout_path": "data\\processed\\wikitext2_64\\test_tokens_64.txt",
+  "num_aligned_prompts": 500,
+  "reference_summary_stats": {
+    "num_train_chunks": 37043,
+    "num_eval_chunks_total": 3829,
+    "num_prompts_selected": 500,
+    "num_unique_train_tokens_observed": 38368,
+    "num_tail_tokens": 24174,
+    "tail_buffer_size_actual": 2000,
+    "repair_pool_size_actual": 35043,
+    "device_used": "cpu",
+    "avg_tail_density_train": 0.050003543179548096,
+    "avg_tail_count_train": 3.200226763491078,
+    "avg_gen0_new_tokens": 32.0
+  },
+  "metrics": {
+    "gen0": {
+      "perplexity": 201.07993097382138,
+      "avg_nll": 5.303702495547119,
+      "mauve": 0.3757943099533306,
+      "distinct_2": 0.16664516129032259,
+      "tail_token_rate": 0.001,
+      "tail_vocab_coverage": 0.0005791346074294697
+    },
+    "current": {
+      "perplexity": 237.07329965859685,
+      "avg_nll": 5.468369374577444,
+      "mauve": 0.16213913043767128,
+      "distinct_2": 0.08245161290322581,
+      "tail_token_rate": 0.00025,
+      "tail_vocab_coverage": 0.0001654670306941342
+    },
+    "human_reference": {
+      "tail_token_rate": 0.063875,
+      "tail_vocab_coverage": 0.035161744022503515
+    }
+  },
+  "relative_to_gen0": {
+    "perplexity_ratio": 1.1790003035631709,
+    "mauve_ratio": 0.4314571193422464,
+    "tail_token_rate_ratio": 0.25,
+    "distinct_2_ratio": 0.49477351916376305
+  },
+  "deficits": {
+    "ppl_deficit": 0.1790003035631709,
+    "mauve_deficit": 0.5685428806577536,
+    "tail_deficit": 0.75,
+    "distinct2_deficit": 0.5052264808362369
+  },
+  "drift_flags": {
+    "perplexity_drift": true,
+    "mauve_drift": true,
+    "tail_drift": true,
+    "distinct2_drift": true
+  },
+  "thresholds": {
+    "ppl_tol": 0.05,
+    "mauve_tol": 0.05,
+    "tail_tol": 0.05,
+    "distinct2_tol": 0.05
+  }
+}

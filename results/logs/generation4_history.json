@@ -1,0 +1,54 @@
+{
+  "train_file": "data\\generated\\generation4_train_tokens_64.txt",
+  "val_file": "data\\processed\\wikitext2_64\\validation_tokens_64.txt",
+  "test_file": "data\\processed\\wikitext2_64\\test_tokens_64.txt",
+  "init_checkpoint": "checkpoints\\generation3\\best",
+  "output_dir": "checkpoints\\generation4",
+  "seed": 104,
+  "epochs": 5,
+  "train_batch_size": 32,
+  "eval_batch_size": 32,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "train_avg_nll": 2.8551960631219857,
+      "train_perplexity": 17.377844028022942,
+      "val_avg_nll": 6.100328097738215,
+      "val_perplexity": 446.00407900894805
+    },
+    {
+      "epoch": 2,
+      "train_avg_nll": 2.8154487809130058,
+      "train_perplexity": 16.700669040289235,
+      "val_avg_nll": 6.1324679783661455,
+      "val_perplexity": 460.57143953069817
+    },
+    {
+      "epoch": 3,
+      "train_avg_nll": 2.784256427169564,
+      "train_perplexity": 16.18777660966581,
+      "val_avg_nll": 6.174723308869086,
+      "val_perplexity": 480.45006925485905
+    },
+    {
+      "epoch": 4,
+      "train_avg_nll": 2.7620349773831467,
+      "train_perplexity": 15.832028008144965,
+      "val_avg_nll": 6.1976470456605295,
+      "val_perplexity": 491.59098805599206
+    },
+    {
+      "epoch": 5,
+      "train_avg_nll": 2.7466093544388097,
+      "train_perplexity": 15.589683079865939,
+      "val_avg_nll": 6.2019923599434446,
+      "val_perplexity": 493.7317531779251
+    }
+  ],
+  "best_val_avg_nll": 6.100328097738215,
+  "test_avg_nll": 6.153175142438673,
+  "test_perplexity": 470.20799644563243
+}

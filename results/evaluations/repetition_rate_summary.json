@@ -1,0 +1,52 @@
+{
+  "ngram_size": 3,
+  "description": "Repetition rate = fraction of n-grams in generated output that are duplicates. Higher means more repetitive. Computed per sample then averaged across the corpus.",
+  "gen0_baseline": {
+    "generation": 0,
+    "repetition_rate": 0.1540666666666667
+  },
+  "baseline_recursive": [
+    {
+      "generation": 1,
+      "repetition_rate": 0.1767999999999999,
+      "source_file": "data\\generated\\generation1_eval_samples.jsonl"
+    },
+    {
+      "generation": 2,
+      "repetition_rate": 0.19813333333333316,
+      "source_file": "data\\generated\\generation2_eval_samples.jsonl"
+    },
+    {
+      "generation": 3,
+      "repetition_rate": 0.2135333333333331,
+      "source_file": "data\\generated\\generation3_eval_samples.jsonl"
+    },
+    {
+      "generation": 4,
+      "repetition_rate": 0.2151333333333332,
+      "source_file": "data\\generated\\generation4_eval_samples.jsonl"
+    }
+  ],
+  "corrected_anchored": [
+    {
+      "generation": 1,
+      "repetition_rate": 0.16773333333333323,
+      "source_file": "data\\generated\\corrected_generation1_eval_samples.jsonl"
+    },
+    {
+      "generation": 2,
+      "repetition_rate": 0.18480000000000002,
+      "source_file": "data\\generated\\corrected_generation2_eval_samples.jsonl"
+    },
+    {
+      "generation": 3,
+      "repetition_rate": 0.19553333333333345,
+      "source_file": "data\\generated\\corrected_generation3_eval_samples.jsonl"
+    },
+    {
+      "generation": 4,
+      "repetition_rate": 0.19159999999999996,
+      "source_file": "data\\generated\\corrected_generation4_eval_samples.jsonl"
+    }
+  ]
+}

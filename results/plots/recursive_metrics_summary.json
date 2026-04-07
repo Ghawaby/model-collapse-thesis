@@ -1,0 +1,112 @@
+[
+  {
+    "branch": "Baseline recursive",
+    "generation": 0,
+    "generation_label": "Gen0",
+    "perplexity": 201.07993097382138,
+    "mauve": 0.3757943099533306,
+    "tail_retention": 0.001,
+    "distinct_2": 0.16664516129032259,
+    "source_file": "results\\evaluations\\gen0_fresh_greedy_check.json",
+    "repetition_rate": 0.1540666666666667
+  },
+  {
+    "branch": "Baseline recursive",
+    "generation": 1,
+    "generation_label": "Gen1",
+    "perplexity": 247.77522281633364,
+    "mauve": 0.34871696836963784,
+    "tail_retention": 0.000375,
+    "distinct_2": 0.13580645161290322,
+    "source_file": "results\\evaluations\\generation1_vs_gen0.json",
+    "repetition_rate": 0.1767999999999999
+  },
+  {
+    "branch": "Baseline recursive",
+    "generation": 2,
+    "generation_label": "Gen2",
+    "perplexity": 311.9381512467593,
+    "mauve": 0.28463589672987116,
+    "tail_retention": 0.0001875,
+    "distinct_2": 0.10980645161290323,
+    "source_file": "results\\evaluations\\generation2_vs_gen0.json",
+    "repetition_rate": 0.19813333333333316
+  },
+  {
+    "branch": "Baseline recursive",
+    "generation": 3,
+    "generation_label": "Gen3",
+    "perplexity": 383.7918490301662,
+    "mauve": 0.312909493598491,
+    "tail_retention": 0.0001875,
+    "distinct_2": 0.09548387096774194,
+    "source_file": "results\\evaluations\\generation3_vs_gen0.json",
+    "repetition_rate": 0.2135333333333331
+  },
+  {
+    "branch": "Baseline recursive",
+    "generation": 4,
+    "generation_label": "Gen4",
+    "perplexity": 470.20799644563243,
+    "mauve": 0.3108198624128257,
+    "tail_retention": 0.0001875,
+    "distinct_2": 0.0832258064516129,
+    "source_file": "results\\evaluations\\generation4_vs_gen0.json",
+    "repetition_rate": 0.2151333333333332
+  },
+  {
+    "branch": "Corrected anchored",
+    "generation": 0,
+    "generation_label": "Gen0",
+    "perplexity": 201.07993097382138,
+    "mauve": 0.3757943099533306,
+    "tail_retention": 0.001,
+    "distinct_2": 0.16664516129032259,
+    "source_file": "results\\evaluations\\gen0_fresh_greedy_check.json",
+    "repetition_rate": 0.1540666666666667
+  },
+  {
+    "branch": "Corrected anchored",
+    "generation": 1,
+    "generation_label": "Gen1",
+    "perplexity": 221.27257990244428,
+    "mauve": 0.3237165428130888,
+    "tail_retention": 0.0005,
+    "distinct_2": 0.1364516129032258,
+    "source_file": "results\\evaluations\\corrected_generation1_vs_gen0.json",
+    "repetition_rate": 0.16773333333333323
+  },
+  {
+    "branch": "Corrected anchored",
+    "generation": 2,
+    "generation_label": "Gen2",
+    "perplexity": 233.61780839196678,
+    "mauve": 0.2711038078647998,
+    "tail_retention": 0.002125,
+    "distinct_2": 0.11387096774193549,
+    "source_file": "results\\evaluations\\corrected_generation2_vs_gen0.json",
+    "repetition_rate": 0.18480000000000002
+  },
+  {
+    "branch": "Corrected anchored",
+    "generation": 3,
+    "generation_label": "Gen3",
+    "perplexity": 236.01900590050926,
+    "mauve": 0.18073293586667483,
+    "tail_retention": 0.002,
+    "distinct_2": 0.09258064516129032,
+    "source_file": "results\\evaluations\\corrected_generation3_vs_gen0.json",
+    "repetition_rate": 0.19553333333333345
+  },
+  {
+    "branch": "Corrected anchored",
+    "generation": 4,
+    "generation_label": "Gen4",
+    "perplexity": 237.07329965859685,
+    "mauve": 0.16213913043767128,
+    "tail_retention": 0.00025,
+    "distinct_2": 0.08245161290322581,
+    "source_file": "results\\evaluations\\corrected_generation4_vs_gen0.json",
+    "repetition_rate": 0.19159999999999996
+  }
+]
